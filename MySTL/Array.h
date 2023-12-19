@@ -12,8 +12,6 @@ using namespace std;
 template<class _T,size_t _N>
 class Array {
 
-
-
 	using iterator = _T*;
 	using const_iterator = _T const*;
 	using value_type = _T;
